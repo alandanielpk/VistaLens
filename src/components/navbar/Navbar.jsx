@@ -21,7 +21,7 @@ function Navbar() {
     <nav className="bg-white border-gray-200 dark:bg-gray-800">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="./VistaLens Blaco.png" className="w-40" alt="Flowbite Logo" />
+          <img src="./img/VistaLensBlaco.png" className="w-40" alt="Flowbite Logo" />
         </Link>
 
         <div className="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse relative ron">
@@ -32,7 +32,7 @@ function Navbar() {
             aria-expanded={isDropdownOpen}
           >
             <span className="sr-only ">Open user menu</span>
-            <img className="w-14 " src="./LogoVistaLens Blaco.png"/>
+            <img className="w-14 " src="./img/LogoVistaLensBlaco.png"/>
           </button>
 
           {isDropdownOpen && (
